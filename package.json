@@ -1,0 +1,19 @@
+{
+  "name": "cryptojstesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node db/scripts/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.3",
+    "uuidv4": "^6.2.12"
+  }
+}
